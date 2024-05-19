@@ -19,7 +19,8 @@ import javax.sql.DataSource;
 //@Import(JdbcTemplateV2Config.class)
 //@Import(JdbcTemplateV3Config.class)
 //@Import(MyBatisConfig.class)
-@Import(JpaConfig.class)
+//@Import(JpaConfig.class)
+@Import(SpringDataJpaConfig.class)
 @SpringBootApplication(scanBasePackages = "hello.itemservice.web") //컴포넌트 스캔 범위 지정
 public class ItemServiceApplication {
 
